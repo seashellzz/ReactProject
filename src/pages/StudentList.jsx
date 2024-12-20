@@ -44,7 +44,7 @@ export default function StudentList() {
   return (
     <div className="student-list" >
         
-      <div className="container">
+      <div className="studentTable">
         <table {...getTableProps()}>
           <thead>
             {headerGroups.map((headerGroup) => (
